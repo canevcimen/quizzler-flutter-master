@@ -40,10 +40,7 @@ class _QuizPageState extends State<QuizPage> {
               scoreKeeper.clear();
 
         }
-      else
-      {
 
-      }
 
       if (correctAnswer == userPickedAnswer) {
         scoreKeeper.add(Icon(
